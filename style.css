@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background: #F5D04E;
+font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+.card {
+    max-width: 380px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px ;
+    box-shadow: 15px 15px 0px black;
+    
+    
+}
+
+.img1{
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+.bloco{
+    background: #F5D04E;
+    font-weight: 800;
+    padding: 5px;
+    width: 80px;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+span {
+    text-align: left;
+}
+
+.span{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #F5D04E;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+p{
+    padding: 0px 25px;
+    line-height: 1.5;
+    text-align: left;
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 20px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.perfil img {
+    width: 34px;
+}
+
+.perfil span {
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    *{
+        width: 95%;
+        
+    }
+
+    .img1{
+        width: 85%;
+    }
+
+    h2{
+        width: 90%;
+    }
+
+    p{
+        width: 90%;
+    }
+
+    .container{
+        margin-left: 20px;
+        
+    }
+}
+
+.attribution{
+
+    text-align: center;
+}
