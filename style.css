@@ -63,13 +63,17 @@ span {
 }
 
 h2 {
-    color: #F5D04E;
+    color: hsl(0, 0%, 7%);
     cursor: pointer;
     text-align: left;
     margin-left: 25px;
     margin-bottom: 20px;
+    transition: 0.5s;
 }
 
+h2:hover{
+    color: #F5D04E;
+}
 p{
     padding: 0px 25px;
     line-height: 1.5;
